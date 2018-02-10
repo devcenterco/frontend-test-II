@@ -1,6 +1,6 @@
 ## Front-end Developer Test
 
-### Devcenter Frontend Developer Test I
+### Devcenter Frontend Developer Test II
 
 The purpose of this test is not only to quickly gauge an applicant's abilities with working with APIs, but also their approach to development.
 
