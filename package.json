@@ -1,0 +1,38 @@
+{
+  "name": "frontend-test-ii",
+  "version": "1.0.0",
+  "description": "DevCenter Frontend Test",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel ./public/index.html",
+    "build": "parcel ./public/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamuchejude/frontend-test-II.git"
+  },
+  "keywords": [
+    "Spotify",
+    "giphy",
+    "api",
+    "frontend"
+  ],
+  "author": "Uche Jude <iamuchejude@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iamuchejude/frontend-test-II/issues"
+  },
+  "homepage": "https://github.com/iamuchejude/frontend-test-II#readme",
+  "dependencies": {
+    "react": "^16.6.0",
+    "react-dom": "^16.6.0",
+    "react-router-dom": "^4.3.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "parcel-bundler": "^1.10.3"
+  }
+}
