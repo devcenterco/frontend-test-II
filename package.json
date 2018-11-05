@@ -4,9 +4,8 @@
   "description": "DevCenter Frontend Test",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "parcel ./public/index.html",
-    "build": "parcel ./public/index.html"
+    "dev": "parcel ./public/index.html --no-cache",
+    "build": "parcel build ./public/index.html --no-cache"
   },
   "repository": {
     "type": "git",
@@ -31,8 +30,11 @@
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
-    "parcel-bundler": "^1.10.3"
+    "node-sass": "^4.10.0",
+    "parcel-bundler": "^1.10.3",
+    "sass": "^1.14.3"
   }
 }

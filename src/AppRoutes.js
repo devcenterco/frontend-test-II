@@ -8,9 +8,9 @@ import Giphy from './containers/Giphy';
 const AppRoutes = () => (
   <BrowserRouter>
     <Fragment>
-      <Route exact to="/" component={ Home } />
-      <Route exact to="/spotify" component={ Spotify } />
-      <Route exact to="/giphy" component={ Giphy } />
+      <Route exact path="/" component={ Home } />
+      <Route exact path="/spotify" component={ Spotify } />
+      <Route exact path="/giphy" component={ Giphy } />
     </Fragment>
   </BrowserRouter>
 );

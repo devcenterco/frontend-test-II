@@ -1,0 +1,67 @@
+@import '_mixins';
+
+* {
+  padding: 0;
+  margin: 0;
+  outline: none;
+  box-sizing: border-box;
+  overflow-y: hidden;
+  color: #000;
+  font-family: 'Poppins', sans-serif;
+  
+  body, html {
+    width: 100vw;
+
+    a {
+      text-decoration: none;
+    }
+
+    ul {
+      list-style: none;
+    }
+
+    #home {
+      width: 100vw;
+      height: 100vh;
+      @include backgroundImage(0deg, rgba(225, 225, 225, 0.2), rgba(0, 0, 0, 0.01), '../images/background.jpg');
+      position: fixed;
+      overflow: none;
+      
+      .content {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        max-width: 350px;
+        text-align: center;
+
+        @media only screen and (max-width: 350px) {
+          width: 100%;
+        }
+
+        .intro {
+          padding: 20px;
+          font-size: 1.1em;
+        }
+
+        .nav_items {
+          ul {
+            li {
+              display: inline-block;
+              margin: 0 10px;
+
+              &:hover {
+                @include boxShadow(0px 3px 6px 0px rgba(129, 124, 124, 0.103));
+              }
+
+              img {
+                width: 100px;
+                height: 100px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

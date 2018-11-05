@@ -1,0 +1,7 @@
+@mixin backgroundImage($n, $x, $y, $z) {
+  background: linear-gradient($n, $x, $y), url($z);
+}
+
+@mixin boxShadow($val) {
+  box-shadow: $val;
+}
